@@ -393,4 +393,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib64/qfp.wakeup.so:system/vendor/lib64/qfp.wakeup.so
 
 PRODUCT_PACKAGES += \
-    QFingerprintService
+    QFingerprintService \
+    UEIQuicksetSDKLeTV \
+    LetvRemoteControl
